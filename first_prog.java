@@ -1,3 +1,4 @@
+// InfyTQ first Program.
 class Tester {
 	public static void main(String[] args) {
 	    int start =1, pval=8,i;
