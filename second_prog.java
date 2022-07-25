@@ -10,11 +10,11 @@ class Tester {
 	     else if (km - 3 >0){
 	         sum = km-3;
 	     }
-	     else if (km >0){
+	     else if (km >= 0){
 	         sum =0;
 	     }
 	     else{
-	         sum =0;
+	         sum =- 1;
 	     }
 	     switch (food_type){
 	         case 'V':
