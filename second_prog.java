@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-class Tester {
+class second_prog {
 	public static void main(String[] args) {
 	    char food_type;
 	    int km, sum,qty,vegPrice = 12,nVegPrice =15;

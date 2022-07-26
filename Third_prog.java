@@ -1,4 +1,4 @@
-class Tester {
+class Third_prog {
 	public static void main(String[] args) {
 	    String s = "13931";
 	    char CH, CH2;

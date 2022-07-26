@@ -1,7 +1,7 @@
 // InfyTQ first Program.
 import java.util.*;
 
-class Tester {
+class first_prog {
 	public static void main(String[] args) {
 	    int start =1, pval,i;
 	    Scanner sc = new Scanner(System.in);
