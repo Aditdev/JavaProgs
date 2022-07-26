@@ -1,7 +1,18 @@
+import java.util.*;
+
+
 class Tester {
 	public static void main(String[] args) {
-	    char food_type ='N';
-	    int km=3, sum,qty=2,vegPrice = 12,nVegPrice =15;
+	    char food_type;
+	    int km, sum,qty,vegPrice = 12,nVegPrice =15;
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Food Type??\n* 'V' for Veg\n*'N' for NonVeg\n");
+	    food_type= sc.nextChar().charAt(0);
+	    System.out.println("\nQuantity??\n");
+	    qty= sc.nextInt();
+	    System.out.println("\nDistance??\n");
+	    km= sc.nextInt();
+	    
 	    if (km-6 >0)
 	     {
 	         sum =3;

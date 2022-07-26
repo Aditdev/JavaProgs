@@ -4,7 +4,7 @@ class Tester {
 	    char CH, CH2;
 	    int i,flag=0;
 	    int len = s.length();
-	    for (i=0; i< len;i++ ){
+	    for (i=0; i< len/2;i++ ){
 	        CH = s.charAt(i);
 	        CH2 = s.charAt(len - i - 1);
 	        if (CH==CH2){
