@@ -10,7 +10,7 @@ class passwordChecker {
 	}
 
 	public static void main(String[] args) {
-		String password = "gftdrstr8645";
+		String password = "gftdrstr@8645";
 		System.out.println("The password of the customer is " + password);
 		if (isValidPassword(password))
 			System.out.println("The password is valid!");
