@@ -1,7 +1,7 @@
-class password {
+class passwordChecker {
 	public static boolean isValidPassword(String password) {
 		boolean flag = false;
-		String regex = "[A-Za-z]{8,10}[0-9]{4}";
+		String regex = "[A-Za-z]{8,10}[^A-Za-z0-9]{2,}{2,[0-9]{4}";
 
 		if (password.matches(regex)) {
 			flag = true;
