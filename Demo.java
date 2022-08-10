@@ -25,6 +25,5 @@ Class Demo{
     	System.out.println("The sorted array is\n ");		
 		for(i=0;i<5;i++)
 			System.out.print(a[i]+" ");
-		
 	} // Main ends
 }//Demo ends
