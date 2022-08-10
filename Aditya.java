@@ -1,10 +1,10 @@
 Class Student
 {
-int RNo,m[],total;
+int RNo,total,m[];
 float per;
 String Name = new String(); 
-   
-void read(){                                                                             
+m = new int[5];
+void read()   {                                                                             
 Scanner sc = new Scanner(System.in);
 System.out.println("Name?");
 Name = sc.nextLine();
@@ -40,7 +40,7 @@ else
 Class Aditya{
 	public static void main(String[] args){
 		Student s1 = new Student();
-		Student s2 = new Student();
+		// Student s2 = new Student();
 		s1.read();
 		s1.display();
 }
