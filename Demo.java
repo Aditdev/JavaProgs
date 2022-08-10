@@ -7,7 +7,7 @@ Class Demo{
 		a = new int[5];
 		for(i=0;i<5;i++)
 			a[i]= scan.nextInt();
-		System.out.print("The unsorted array is\n ");
+		System.out.println("The unsorted array is");
 		for(i=0;i<5;i++)
 			System.out.print(a[i]+" ");
 		for(i=0;i<5;i++)
@@ -22,8 +22,7 @@ Class Demo{
 					}//if ends
 			}//forj ends
 		}//fori end
-
-		System.out.print("The sorted array is\n ");		
+    	System.out.println("The sorted array is\n ");		
 		for(i=0;i<5;i++)
 			System.out.print(a[i]+" ");
 		
