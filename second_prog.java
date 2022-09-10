@@ -7,7 +7,7 @@ class second_prog {
 	    int km, sum,qty,vegPrice = 12,nVegPrice =15;
 	    Scanner sc = new Scanner(System.in);
 	    System.out.println("Food Type??\n* 'V' for Veg\n*'N' for NonVeg\n");
-	    food_type= sc.nextChar().charAt(0);
+	    food_type= sc.next().charAt(0);
 	    System.out.println("\nQuantity??\n");
 	    qty= sc.nextInt();
 	    System.out.println("\nDistance??\n");
