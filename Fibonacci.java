@@ -12,3 +12,7 @@ class Fibonacci{
 		}
 	}
 }
+/*
+java Fibonacci 5
+0 1 1 2 3
+*/
