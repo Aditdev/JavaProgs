@@ -9,3 +9,7 @@ class Factorial{
 	}
 
 }
+/*
+java Factorial 5
+The Factorial of 5 is 120
+*/
