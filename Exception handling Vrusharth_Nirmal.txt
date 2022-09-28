@@ -1,0 +1,31 @@
+class Two extends Thread
+{
+    int x=2,i;
+    public void run ()
+    {
+        for(int i=1;i<=10;i++);
+        {
+            System.out.println(x*i);
+        }
+    }
+}
+class Ten extends Thread
+{
+    int x=10,i;
+    public void run (){
+        for(int i=1;i<=10;i++);
+        {
+            System.out.println(x*i);
+        }
+    }
+}
+class Main
+{
+    public static void main(String args[])
+    {
+        Two T2 = new Two();
+        Ten T10 = new Ten();
+        T2.start();
+        T10.start();
+    }
+}
