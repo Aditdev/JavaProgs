@@ -1,0 +1,28 @@
+class Area {
+
+public void cal_area(int l,int b){
+System.out.println("area of rectangle= " + l*b+" sqr");
+}
+public void cal_ara(int b,float h){
+System.out.println("area of trangle= " + 0.5*b*h+" sqr");
+}
+public void cal_area(float r){
+System.out.println("area of circle= " + 3.142*r*r+" sqr");
+}
+public void cal_area(int a){
+System.out.println("area of square= " + a*a+" sqr");
+} 
+
+}
+
+class Areas{
+public static void main(String args[]){
+Area a=new Area();
+a.cal_area(5.5f);
+a.cal_area(4,2);
+a.cal_area(4);
+
+}
+}
+
+//Method overloading
